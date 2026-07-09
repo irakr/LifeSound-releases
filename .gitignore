@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Release binaries live in GitHub Releases, never committed to this repo.
+# Ignore any locally-downloaded artifacts so they can't be added by accident.
+/dist/
+*.exe
+*.dmg
+*.zip
+*.AppImage
+*.deb
+*.msi
